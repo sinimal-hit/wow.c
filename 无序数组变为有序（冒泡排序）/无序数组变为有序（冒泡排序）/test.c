@@ -4,8 +4,7 @@
 int main()
 {
 	int arr[] = { 54,63,25,15,2 };
-	int o = sizeof(arr) / sizeof(arr[0]) ;
-	printf("%d\n", o);
+	
 	printf("冒泡排序前：");
 	for (int i = 0; i <= sizeof(arr) / sizeof(arr[0]) - 1; i++){
 		
@@ -13,7 +12,7 @@ int main()
 	}
 	printf("\n");
 
-	printf("第1次排序；\n");
+	/*printf("第1次排序；\n");
 	for (int i = 0; i < (sizeof(arr)/sizeof(arr[0]) - 1); i++){
 		if (arr[i] > arr[i + 1]){
 			int temp = arr[i];
@@ -60,7 +59,7 @@ int main()
 	for (int i = 0; i <= sizeof(arr) / sizeof(arr[0]) - 1; i++){
 		printf("%d ", arr[i]);
 	}
-	printf("\n");
+	printf("\n");*/
 
 	//根据上面代码进行改进
 	printf("改进后的排序结果：\n");
