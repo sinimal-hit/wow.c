@@ -10,11 +10,6 @@ void swap(int* a, int* b)
 int main()
 {
 	int a = 10;
-	int b = 16;
-	swap(&a,&b);
-	printf("a = %d b = %d\n",a, b);
-	system("pause");
-	return 0;
 }
 
 //int add(int a, int b){
